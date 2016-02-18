@@ -4,8 +4,8 @@
 
 // 引入依赖
 var express = require('express');
-var superagent = require('superagent');
-var cheerio = require('cheerio');
+var superagent = require('superagent');//可以发起 get 或 post 请求。
+var cheerio = require('cheerio');//类似jQuery
 // 建立 express 实例
 var app = express();
 app.get('/', function (req, res, next) {
