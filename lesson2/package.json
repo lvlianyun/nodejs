@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "学习node",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "utility": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvlianyun/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvlianyun/nodejs/issues"
+  },
+  "homepage": "https://github.com/lvlianyun/nodejs#readme"
+}
