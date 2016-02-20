@@ -1,0 +1,20 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "学习爬虫"
+  ],
+  "author": "lvlianyun",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "eventproxy": "^0.3.4",
+    "express": "^4.13.4",
+    "superagent": "^1.7.2"
+  }
+}
