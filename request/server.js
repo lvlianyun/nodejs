@@ -16,7 +16,8 @@ var handle={};
 handle['/']=requestHandlers.start;
 handle['/start']=requestHandlers.start;
 handle['/upload']=requestHandlers.upload;
-
+handle['/show']=requestHandlers.show;
+handle['/submitText']=requestHandlers.submitText;
 
 function start(){
 
@@ -25,13 +26,8 @@ function start(){
 
         var pathname=url.parse(request.url).pathname;
 
-        var content= route.route(pathname,handle);
+        route.route(pathname,handle,request,response);
 
-        response.writeHead(200, {"Content-Type": "text/plain"});
-
-        response.write(content);
-
-        response.end();
 
     }
     http.createServer(onRequest).listen(8888);
